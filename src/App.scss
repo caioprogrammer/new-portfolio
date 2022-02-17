@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: unset;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+    list-style: none;
+    scroll-behavior: smooth;
+}
+a, button {
+    text-decoration: none;
+    outline: unset;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+// Código referente a responsividade do site 
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 660px) {
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+}

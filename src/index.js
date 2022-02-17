@@ -1,17 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.scss';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render( <App /> , document.getElementById('root'));
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const loading = document.getElementById('loading');
+const nameAnimate = document.getElementById('nameAnimate');
+const nameAnimate1 = document.getElementById('nameAnimate1');
+const nameAnimate2 = document.getElementById('nameAnimate2');
+
+const menuOpener = document.getElementById('menuOpener');
+const menuCloser = document.getElementById('menuCloser');
+
+menuOpener.addEventListener('click', () => {
+    document.querySelector('.mainMenu').classList.add('act')
+})
+menuCloser.addEventListener('click', () => {
+    document.querySelector('.mainMenu').classList.remove('act')
+})
+
+
+
+
+
+
+
+
+setTimeout(() => {
+    loading.classList.add('active');
+}, 3000);
+
+setTimeout(() => {
+    nameAnimate.classList.add('tracking-in-contract');
+    nameAnimate1.classList.add('tracking-in-contract-bck-bottom')
+    nameAnimate2.classList.add('tracking-in-contract-bck-bottom')
+}, 3100)
