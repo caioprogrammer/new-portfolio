@@ -1,0 +1,139 @@
+.footer {
+    min-height: 100vh;
+    position: relative;
+        &__noise {
+            background-image: url(../../assets/footer_noise.gif);
+            width: 100%;
+            height: 100vh;
+            opacity: 0.065;
+
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+        &__content {
+            color: var(--primary-text-color);
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: space-between;
+            @media screen and (max-width: 500px) {
+                flex-direction: column;
+                justify-content: unset;
+            }
+            &--left {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                @media screen and (max-width:500px) {
+                    margin-top: 35px;
+                }
+                a {
+                    font-size: 48px;
+                    font-weight: 700;
+                    text-transform: none;
+                    margin-bottom: 50px;
+                    @media screen and (max-width: 500px) {
+                        font-size: 20px;
+                    }
+                }
+                .form {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    &__top {
+                        display: flex;
+                        justify-content: space-between;
+                        @media screen and (max-width: 500px) {
+                            flex-direction: column;
+                            grid-gap: 15px;
+                        }
+                        div {
+                            position: relative;
+                            display: flex;
+                            justify-content: space-between;
+                            input {
+                                border: 1px solid #fff;
+                                background: transparent;
+                                border-radius: 50px;
+                                font-size: 24px;
+                                padding: 10px 15px;
+                                &::placeholder {
+                                    color: #fff !important;
+                                }
+                            }
+                        }
+
+                    }
+                    &__bottom {
+                        textarea {
+                            background: transparent;
+                            resize: none;
+                            width: 100%;
+                            height: 125px;
+                            margin-top: 35px;
+                            border-radius: 20px;
+                            border: 1px solid #fff;
+                            font-size: 24px;
+                            padding: 10px 15px;
+                            &::placeholder {
+                                color: #fff !important;
+                            }
+                        }
+                    }
+                    button {
+                        background-color: transparent;
+                        border: 1px solid #fff;
+                        color: #fff;
+                        width: 150px;
+                        outline: none;
+                        padding: 15px;
+                        border-radius: 50px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+            &--right {
+                display: flex;
+                grid-gap: 35px;
+                text-align: center;
+                @media screen and (max-width: 500px) {
+                    flex-direction: column;
+                    margin-top: 25px;
+                    width: 100%;
+                }
+                .left {
+                    h3 {
+                        margin-bottom: 15px;
+                    }
+                    li {
+                        font-size: 18px;
+                        text-transform: none;
+                        line-height: 30px;
+                            border-bottom: 1px solid;
+                            padding-bottom: 5px;
+                        a {
+                            text-transform: none;
+                        }
+                    } 
+                }
+                .right {
+                    h3 {
+                        margin-bottom: 15px;
+                    }
+                    li {
+                        font-size: 18px;
+                        text-transform: none;
+                        line-height: 30px;
+                        border-bottom: 1px solid;
+                        padding-bottom: 5px;
+                        a {
+                            text-transform: none;
+                        }
+                    } 
+                }
+
+            }
+        }
+}

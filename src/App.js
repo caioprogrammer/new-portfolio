@@ -3,7 +3,7 @@ import './App.scss';
 import './script.js';
 
 
-import { Header, Banner, Works } from './containers'; 
+import { Header, Banner, Works, Footer } from './containers'; 
 //IMPORTAÇÃO DOS CONTAINERS 
 import { Welcome, Promotional, Title, MobileMenu } from './components'; 
 //IMPORTAÇÃO DOS COMPONENTES NECESSÁRIOS
@@ -19,6 +19,9 @@ const App = () => {
             <Promotional />
             <Title />
             <Works />
+
+
+            <Footer />
         </div>
     )
 }

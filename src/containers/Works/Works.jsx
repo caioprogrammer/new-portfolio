@@ -3,7 +3,7 @@ import "./Works.scss";
 
 const Works = () => {
   return (
-    <div className="works">
+    <div className="works" id="works">
       <main className="wrapper">
         <section className="container section bg1">
         <p className="text scrolling-limit">
