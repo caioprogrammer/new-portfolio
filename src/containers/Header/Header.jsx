@@ -10,8 +10,8 @@ const Header = () => {
       <div className="header__menu">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#works">works(7)</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#works">projetos(7)</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </div>
       <div className="header__button" id="menuOpener">
