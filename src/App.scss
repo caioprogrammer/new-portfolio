@@ -8,6 +8,9 @@
     color: var(--primary-text-color);
     list-style: none;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     scroll-behavior: smooth;
 }
@@ -21,15 +24,3 @@ a, button {
 }
 
 // Código referente a responsividade do site 
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 660px) {
-    
-}
-
-@media screen and (max-width: 480px) {
-    
-}

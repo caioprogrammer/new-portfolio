@@ -9,16 +9,16 @@ const MobileMenu = () => {
 			</div>
 				<ul>
 					<li>
-						<a href="#/">About me</a>
+						<a href="#0">About me</a>
 					</li>
 					<li>
-						<a href="#/">Services</a>
+						<a href="#0">Services</a>
 					</li>
 					<li>
-						<a href="#/">Projects</a>
+						<a href="#0">Projects</a>
 					</li>
 					<li>
-						<a href="#/">Contact</a>
+						<a href="#0">Contact</a>
 					</li>
 
 				</ul>
