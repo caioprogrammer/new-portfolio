@@ -9,7 +9,7 @@ const Banner = () => {
             <h1 className='' id='nameAnimate1'>Web</h1>
             <h1 className='' id='nameAnimate2'>Front-end</h1>
         </div>
-        <div className='banner__content-mini'>
+        {/* <div className='banner__content-mini'>
             <p>
                 Caio Nogueira, Desenvolvedor Web Front-end
             </p>
@@ -19,7 +19,7 @@ const Banner = () => {
             <p>
                 Reside em Maceió
             </p>
-        </div>
+        </div> */}
         
     </div>
   )

@@ -59,6 +59,7 @@
                                 border-radius: 50px;
                                 font-size: 24px;
                                 padding: 10px 15px;
+                                width: 100%;
                                 &::placeholder {
                                     color: #fff !important;
                                 }
@@ -91,6 +92,15 @@
                         padding: 15px;
                         border-radius: 50px;
                         margin-top: 30px;
+                        cursor: pointer;
+                        transition: background ease .5s;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                        }
+                        &:hover {
+                            background-color: #fff;
+                            color: var(--background-color);
+                        }
                     }
                 }
             }
@@ -111,7 +121,6 @@
                         font-size: 18px;
                         text-transform: none;
                         line-height: 30px;
-                            border-bottom: 1px solid;
                             padding-bottom: 5px;
                         a {
                             text-transform: none;
@@ -126,7 +135,6 @@
                         font-size: 18px;
                         text-transform: none;
                         line-height: 30px;
-                        border-bottom: 1px solid;
                         padding-bottom: 5px;
                         a {
                             text-transform: none;
