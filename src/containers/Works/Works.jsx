@@ -48,17 +48,6 @@ const Works = () => {
             <div className="bg-tag">TrayCorp</div>
         </section>
 
-        <section className="container section bg5">
-            <p className="text">
-                <a href="https://www.pizzita.com.br/"  target={'_blank'} rel="noreferrer" className="glitch">
-                    <span aria-hidden="true">pizzita</span>
-                    pizzita
-                    <span aria-hidden="true">pizzita</span>       
-                </a>
-            </p>
-            <div className="bg-tag">VTEX CMS</div>
-        </section>
-
         
       </main>
     </div>
