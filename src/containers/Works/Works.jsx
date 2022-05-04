@@ -16,17 +16,6 @@ const Works = () => {
             <div className="bg-tag">VTEX CMS</div>
         </section>
         
-        <section className="container section bg6">
-            <p className="text">
-                <a href="https://makepeaceco.commercesuite.com.br/" target={'_blank'} rel="noreferrer" className="glitch">
-                    <span aria-hidden="true">Make Peace Company</span>
-                    Make Peace Company
-                    <span aria-hidden="true">Make Peace Company</span>       
-                </a>
-            </p>
-            <div className="bg-tag">TrayCorp</div>
-        </section>
-
         <section className=" container section bg2">
         <p className="text">
                 <a href="https://www.glossyshoes.com.br/"  target={'_blank'} rel="noreferrer" className="glitch">
